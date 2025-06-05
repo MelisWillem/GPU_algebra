@@ -1,6 +1,6 @@
-#include<gvec/utils.h>
-#include<gvec/vec.h>
 #include<cuda.h>
+#include"utils.h"
+#include"vec.h"
 #include<assert.h>
 
 __global__ void VecAddVec(const float* A, const float* B, float* C, int size)

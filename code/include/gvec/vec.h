@@ -1,3 +1,8 @@
+#pragma once
+
+#include <algorithm>
+#include <initializer_list>
+
 namespace gvec{
     class Vec{
         float* d_;

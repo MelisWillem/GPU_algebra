@@ -1,0 +1,9 @@
+CompileFlags:
+  Remove:
+    - -forward-unknown-to-host-compiler
+    - --options-file
+    - --generate-code=arch=compute_86,code=[compute_86,sm_86]
+  Add: 
+    - --no-cuda-version-check
+    # For some reason the compile commands do not contain the include path.
+    - -I/workspaces/GPU_algebra/code/include/gvec

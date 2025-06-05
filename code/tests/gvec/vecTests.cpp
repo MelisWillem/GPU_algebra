@@ -1,7 +1,9 @@
-#include<catch2/catch.hpp>
-#include<gvec/vec.h>
+#include<catch2/catch_test_macros.hpp>
+#include<catch2/catch_approx.hpp>
+#include<vec.h>
 
 using namespace gvec;
+using namespace Catch;
 
 TEST_CASE("Give_Vec_Set_Check_Get")
 {
